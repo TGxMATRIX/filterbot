@@ -913,14 +913,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "source":
+
         buttons = [[
-            InlineKeyboardButton('SOURCE C
 
+            InlineKeyboardButton('SOURCE CODE', url='https://github.com/matrixbotz0/PETER-PARKER-BOT')
 
+            ],[
 
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
 
-        ],[
+        ]]
+        
+
+
+
+
+     
+
+
 
 
 
