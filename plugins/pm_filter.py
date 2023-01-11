@@ -914,7 +914,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            
+            InlineKeyboardButton('SOURCE CODE', url='https://t.me/filesharebotusers/AML-UPDATES')
+             ],[
+
 
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
