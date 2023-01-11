@@ -914,12 +914,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://t.me/filesharebotusers/AML-UPDATES')
-             ],[
-
-
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
-        ]]
+        ],[
+        
+            
+
+
+            
+       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
