@@ -916,9 +916,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         buttons = [[
 
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/matrixbotz0/PETER-PARKER-BOT')
+            InlineKeyboardButton('SOURCE CODE', url
 
-            ],[
+            
 
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
 
