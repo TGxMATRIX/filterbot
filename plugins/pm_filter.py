@@ -916,7 +916,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         buttons = [[
 
-            InlineKeyboardButton('SOURCE CODE', url
+         
 
             
 
